@@ -38,7 +38,7 @@ class SEO
 
             $this->values['inferred']['title'] = $this->config['contenttypes'][strtolower($vars['contenttype'])]['title'];
             $this->values['inferred']['description'] = $this->config['contenttypes'][strtolower($vars['contenttype'])]['description'];
-            $this->values['inferred']['keywords'] = $this->config['contenttypes'][strtolower($vars['keywords'])]['description'];
+            $this->values['inferred']['keywords'] = $this->config['contenttypes'][strtolower($vars['contenttype'])]['keywords'];
         }
 
         $titlefield = '';
